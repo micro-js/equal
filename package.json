@@ -2,7 +2,7 @@
   "name": "@f/equal",
   "description": "Check two things for shallow equality",
   "repository": "git://github.com/micro-js/equal.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
