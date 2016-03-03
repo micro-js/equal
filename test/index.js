@@ -15,5 +15,7 @@ test('should work', function (t) {
   t.ok(equal(1, 1))
   t.notOk(equal([1, 2], {a: 1}))
   t.notOk(equal(1, 2))
+  t.ok(equal(undefined, undefined))
+  t.notOk(equal(null, undefined))
   t.end()
 })
